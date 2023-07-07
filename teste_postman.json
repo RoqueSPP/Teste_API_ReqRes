@@ -1,0 +1,81 @@
+{
+	"id": "6e3cde59-e00a-40ab-b11e-6083bd31a11d",
+	"name": "teste",
+	"values": [
+		{
+			"key": "token",
+			"value": "735b0a34720094cac35691499e350a5f0db05a3300048c3b248deba8ef1efcaa",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "key",
+			"value": "25457a572e044cb6c87590a29102b6a7",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "uri",
+			"value": "https://api.trello.com/1/",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "costumer",
+			"value": "050501eb8f427cdd2a9f7f7f9ab8209958c17e93a0250b23430cbc1d090bb6ea",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "idBoard",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "idList",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "idCard",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "idgorest",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "NomeF",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "email",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "fullmail",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "id",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2023-07-07T01:07:18.871Z",
+	"_postman_exported_using": "Postman/10.15.11-230706-0916"
+}
