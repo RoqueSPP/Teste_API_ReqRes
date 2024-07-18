@@ -2,6 +2,7 @@ on:
   push:
     branches:
       - master
+
 env:
   NODE_VERSION: '20'           # set this to the node version to use
 
@@ -21,11 +22,11 @@ jobs:
        npm install -g newman
        npm install -g newman-reporter-htmlextra
     - name: executar
-      run: newman run gorest_postman.json -e teste_postman.json 
+      run: newman run gorest_postman.json -e teste_postman.json -r htmlextra --reporter-htmlextra-export testResults/htmlreport.html --reporter-htmlextra
     - name: diretorio
-      run: mkdir -p RunReports
+      run: mkdir -p testResults
     - name: Output the run Details
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v2
       with: 
        name: RunReports
-       path: RunReports
+       path: testResults
