@@ -1,0 +1,23 @@
+export const ele = {
+  firstname: '#firstname',
+  lastname: '#lastname',
+  password: '#password',
+  age: '#age',
+  birth: '#birth',
+  height: '#height',
+  peso: '#peso',
+  blood: '#blood',
+  skin: '#skin',
+  cpf: '#cpf',
+  rg: '#rg',
+  phone: '#phone',
+  mobile: '#mobile',
+  email: '#email',
+  mather: '#mather',
+  father: '#father',
+  select1: '#select1',
+  select2: '#select2',
+  cep: '#cep',
+  numero: '#numero',
+  btnValidate: '#btnValidate'
+};
