@@ -1,6 +1,4 @@
 
-// ***********************************************
-
 Cypress.Commands.add('writeText', (element, text) => {
     cy.get(element).type(text)
 

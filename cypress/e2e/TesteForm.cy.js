@@ -1,7 +1,7 @@
-import { ele } from "../../src/locator/login";
+import { ele } from "../../src/locator/TesteLocator";
 import { info } from "../../src/utils/faker";
 
-describe('Central de atendimento CAC-TAC', () => {
+describe('Teste page', () => {
   beforeEach(() => {
     cy.visit('https://roquespp.github.io/index2/')
   })
